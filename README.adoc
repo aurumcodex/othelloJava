@@ -1,0 +1,8 @@
+= OthelloJava
+
+An implementation of Othello, implemented in Java (uses JDK 8).
+
+.Implements the following algorithms:
+- MinMax with alpha-beta pruning.
+- Negamax with alpha-beta pruning.
+- Random move generation.
