@@ -1,6 +1,6 @@
 package com.github.aurumcodex.othello;
 
-public class Bot extends Player {
+class Bot extends Player {
 
     Bot() {
         this.color = Color.NONE;

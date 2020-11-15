@@ -1,6 +1,6 @@
 package com.github.aurumcodex.othello;
 
-public enum Direction implements Display {
+enum Direction implements Display {
     NORTH(-8),
     SOUTH(8),
     EAST(1),
@@ -12,10 +12,19 @@ public enum Direction implements Display {
     NULL(0); // NULL direction should only be when an error occurs
 
     int value;
+
+    /**
+     * Direction enum constructor.
+     * @param value the value to set for the constant
+     */
     Direction(int value) {
         this.value = value;
     }
 
+    /**
+     * Inverts the given direction enum.
+     * @return the inverted direction
+     */
     Direction invert() {
         switch (this) {
             case NORTH: return SOUTH;

@@ -1,6 +1,6 @@
 package com.github.aurumcodex.othello;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 /**
  * @author  aurumcodex
@@ -21,7 +21,7 @@ public class Main {
 //        for (Color c : game.board) {
 //            System.out.println(c);
 //        }
-        game.display();
+        game.display(Color.BLACK);
 
     } // end main method
 } // end Main driver class

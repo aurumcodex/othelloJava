@@ -1,6 +1,6 @@
 package com.github.aurumcodex.othello;
 
-public class Human extends Player {
+class Human extends Player {
 
     Human() {
         this.color = Color.NONE;

@@ -1,11 +1,9 @@
 package com.github.aurumcodex.othello;
 
-//import static com.github.aurumcodex.othello.Values.RIGHT_BORDER;
-
 import java.util.ArrayList;
 import java.util.stream.IntStream;
 
-public class Move implements Display {
+class Move implements Display {
     int cell;
     int numFlips;
     Direction direction;
@@ -38,7 +36,7 @@ public class Move implements Display {
         }
     }
 
-    int getWeight() { return Values.WEIGHTS[this.cell]; }
+    // int getWeight() { return Values.WEIGHTS[this.cell]; }
 
     // ===== class methods below this line ===== //
 

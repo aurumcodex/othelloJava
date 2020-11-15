@@ -1,5 +1,5 @@
 package com.github.aurumcodex.othello;
 
-public interface Evaluation {
+interface Evaluation {
     int Evaluator(Board board, Color color);
 }

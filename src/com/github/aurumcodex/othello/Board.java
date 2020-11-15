@@ -3,7 +3,7 @@ package com.github.aurumcodex.othello;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Board extends Algorithms implements Movelist, Display, Passing, Cloneable {
+class Board extends Algorithms implements Movelist, Display, Passing, Cloneable {
     Player player;
     Player opponent;
     Color[] board;
@@ -270,9 +270,8 @@ public class Board extends Algorithms implements Movelist, Display, Passing, Clo
             if (i % 8 == 0) { System.out.printf(" %s|", Utility.getRow(i)); }
             if (cells.contains(i)) {
                 Utility.printChar(i, "+");
-                continue;
             } else {
-                Utility.printChar(i, Utility.getColor(color));
+                Utility.printChar(i, Utility.getColor(c));
             }
             i++;
         }

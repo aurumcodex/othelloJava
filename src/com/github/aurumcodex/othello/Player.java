@@ -1,6 +1,6 @@
 package com.github.aurumcodex.othello;
 
-public abstract class Player implements Cloneable {
+abstract class Player implements Cloneable {
     Color color;
     boolean human;
     boolean passing;

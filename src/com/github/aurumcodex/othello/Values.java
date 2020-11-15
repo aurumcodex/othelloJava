@@ -3,7 +3,7 @@ package com.github.aurumcodex.othello;
 import java.util.*;
 //import java.util.Map;
 
-public class Values {
+class Values {
     static final int BOARD_SIZE = 64;
     static final int MAX_DEPTH = 15;
 

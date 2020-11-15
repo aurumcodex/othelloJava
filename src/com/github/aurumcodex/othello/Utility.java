@@ -1,6 +1,6 @@
 package com.github.aurumcodex.othello;
 
-public class Utility {
+class Utility {
     static Evaluation evalDisc = (board, color) -> {
         int blackDiscs = 0;
         int whiteDiscs = 0;
